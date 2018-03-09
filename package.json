@@ -2,8 +2,11 @@
   "name": "projettutore",
   "version": "0.0.0",
   "private": true,
+  "description": "Community about social apps ",
+  "author": "Jeremy Nohile <https://github.com/JeremyNoh>",
   "scripts": {
-    "start": "DEBUG=projettutore:server node ./bin/www"
+    "dev": "DEBUG=projettutore:server nodemon ./bin/www",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
